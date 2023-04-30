@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">assignment</string>
     <string name="welcome_text"><![CDATA[Chemistry & Physics app]]></string>
+    <string-array name="units">
+        <item>Length</item>
+        <item>weight</item>
+    </string-array>
 </resources>
