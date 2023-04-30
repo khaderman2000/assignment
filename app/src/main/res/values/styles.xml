@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="home_page_image">
+        <item name="android:layout_height">100sp</item>
+        <item name="android:layout_width">100sp</item>
+        <item name="android:layout_margin">20sp </item>
+    </style>
+</resources>
