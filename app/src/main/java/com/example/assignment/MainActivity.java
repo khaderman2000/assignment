@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView converter = findViewById(R.id.converter);
         ImageView pic3 = findViewById(R.id.pic3);
         ImageView pic4 = findViewById(R.id.pic4);
+        ImageView tasks = findViewById(R.id.tasks);
 
 
         periodic_table.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
        });
+        tasks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Tasks.class);
+            }
+        });
+
 
         pic3.setOnClickListener(new View.OnClickListener() {
             @Override

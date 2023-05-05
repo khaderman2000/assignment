@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:padding="10sp"
     tools:context=".MainActivity"
-    android:background="@drawable/home_background">
+    android:background="@drawable/home_background"
+    android:gravity="center">
 
         <TextView
             android:layout_width="match_parent"
@@ -42,6 +43,7 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -60,7 +62,13 @@
 
         </LinearLayout>
 
-    </LinearLayout>
 
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/tasks"
+        style="@style/home_page_image"
+        android:src="@drawable/task"
+      />
 
 </LinearLayout>
