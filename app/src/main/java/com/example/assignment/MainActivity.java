@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView periodic_table = findViewById(R.id.periodic_table);
         ImageView converter = findViewById(R.id.converter);
-        ImageView pic3 = findViewById(R.id.pic3);
-        ImageView pic4 = findViewById(R.id.pic4);
+        ImageView chemistry = findViewById(R.id.chemistry);
+        ImageView physics = findViewById(R.id.physics);
         ImageView tasks = findViewById(R.id.tasks);
 
 
@@ -38,19 +38,20 @@ public class MainActivity extends AppCompatActivity {
         tasks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Tasks.class);
+                Intent intent = new Intent(MainActivity.this, Tasks.class );
+                startActivity(intent);
             }
         });
 
 
-        pic3.setOnClickListener(new View.OnClickListener() {
+        chemistry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
         });
 
-       pic4.setOnClickListener(new View.OnClickListener() {
+       physics.setOnClickListener(new View.OnClickListener() {
             @Override
            public void onClick(View view) {
 

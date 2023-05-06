@@ -8,22 +8,22 @@
     android:layout_margin="5dp"
     tools:context=".Tasks">
 
-    <Button
-        android:id="@+id/button"
-        style="@style/buttons"
-        android:text="add new Task"
-        android:layout_gravity="left"
-         />
+
+  <ImageView
+      android:layout_width="60sp"
+      android:layout_height="60sp"
+      android:src="@drawable/add"
+      android:layout_margin="10sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="600sp"/>
+        android:minHeight="400sp"/>
 
-    <Button
-        android:id="@+id/button2"
-        style="@style/buttons"
-        android:layout_gravity="center"
-        android:layout_margin="20sp"
-        android:text="Home"
-        />
+  <Button
+      android:id="@+id/tasksToHomeBtn"
+      style="@style/buttons"
+      android:layout_height="48dp"
+      android:layout_gravity="center"
+      android:layout_margin="20sp"
+      android:text="Home" />
 </LinearLayout>

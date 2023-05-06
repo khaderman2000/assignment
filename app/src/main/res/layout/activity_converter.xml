@@ -40,7 +40,8 @@
         style="@style/buttons"
         android:layout_height="48dp"
         android:layout_gravity="center"
-        android:text="Calculate" />
+        android:text="Calculate"
+        />
 
     <Button
         android:id="@+id/homeBtn"
