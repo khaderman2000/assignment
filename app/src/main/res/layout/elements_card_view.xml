@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/elementImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chemistry"
+        android:layout_marginRight="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textSize="10sp"
+                />
+            <TextView
+                android:id="@+id/elementName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="Atomic Number: "/>
+            <TextView
+                android:id="@+id/atomicNumber"
+                android:layout_width="wrap_content"
+                android:textSize="10sp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atomic Mass: "
+                android:textSize="10sp"
+                />
+            <TextView
+                android:id="@+id/atomicMass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
